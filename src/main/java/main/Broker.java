@@ -70,7 +70,7 @@ public class Broker extends UnicastRemoteObject implements IBroker {
 
     private void updateKnowledgeBase(String ftsUpdate) {
         ftsKnowledge += ftsUpdate;
-        System.out.println("Knowledge Base geupdated!");
+        System.out.println("Servereigene Knowledge Base geupdated!");
     }
 
     private void informSubscribers(String ftsUpdate) {
